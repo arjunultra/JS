@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Task</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h1 class="main-title text-center">Marks Total using JS</h1>
+    <div class="container-xs mt-4">
+      <form method="post">
+        <div class="mb-3">
+          <label for="student-name" class="form-label">Student Name:</label>
+          <input type="text" class="form-control" id="student-name" />
+          <div id="error-name" class="invalid-feedback d-none">
+            Please enter a valid name!
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mark-one" class="form-label">Tamil:</label>
+          <input type="text" class="form-control" id="mark-one" />
+          <div id="error-one" class="invalid-feedback d-none">
+            Please enter a valid mark 1 !
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mark-two" class="form-label">English:</label>
+          <input type="text" class="form-control" id="mark-two" />
+          <div id="error-two" class="invalid-feedback d-none">
+            Please enter a valid mark 2 !
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mark-three" class="form-label">Maths:</label>
+          <input type="text" class="form-control" id="mark-three" />
+          <div id="error-three" class="invalid-feedback d-none">
+            Please enter a valid mark 3 !
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mark-four" class="form-label">Science:</label>
+          <input type="text" class="form-control" id="mark-four" />
+          <div id="error-four" class="invalid-feedback d-none">
+            Please enter a valid mark 4 !
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mark-five" class="form-label">Social:</label>
+          <input type="text" class="form-control" id="mark-five" />
+          <div id="error-five" class="invalid-feedback d-none">
+            Please enter a valid mark 5 !
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="mark-total" class="form-label">Total Marks:</label>
+          <input type="text" class="form-control" id="mark-total" readonly />
+        </div>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
